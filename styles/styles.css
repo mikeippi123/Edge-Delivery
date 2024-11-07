@@ -14,7 +14,7 @@
   /* colors */
   --background-color: white;
   --light-color: #f8f8f8;
-  --dark-color: #505050;
+  --dark-color: #2B2C2B;
   --text-color: #131313;
   --link-color: #3b63fb;
   --link-hover-color: #1d3ecf;
@@ -86,6 +86,13 @@ body.appear {
 
 header {
   height: var(--nav-height);
+  font-family: "Open Sans",sans-serif;
+  font-size: 12px;
+  padding-bottom: 10px;
+  ul,li{
+    font-size: 12px;
+    text-align: left;
+  }
 }
 
 header .header,

@@ -1,19 +1,49 @@
 .cards > ul {
-  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none; 
   margin: 0;
-  padding: 0;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(257px, 1fr));
-  grid-gap: 24px;
+
+  
+}
+.cards .cards-card-body {
+  font-size: 24px;
+  font-weight: 700;
+  color: #2b2c2b;
+
+}
+.cards .button.primary {
+  margin: 18px 0 24px;
+  box-sizing: border-box;
+  background-color: #2B2C2B;
+  border: 1px solid #2B2C2B;
+  border-radius: 4px;
+  color: #f8f8f8;
+  min-width: 135px;
+  max-width: 160px;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 10px 27px 10px 22px; 
 }
 
+.cards .two-per-row li {
+  flex: 1 1 50%; /* Take up 50% of the container width */
+  box-sizing: border-box; /* Ensure padding and border are included in the width */
+}
+.cards .two-per-row{
+  padding: 0px;
+}
 .cards > ul > li {
   border: 1px solid #dadada;
   background-color: var(--background-color);
+  border: 1px solid #2B2C2B;
+
 }
 
 .cards .cards-card-body {
   margin: 16px;
+  
 }
 
 .cards .cards-card-image {
@@ -22,6 +52,10 @@
 
 .cards > ul > li img {
   width: 100%;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
+  object-fit: scale-down;
+  background-position-x: 90%;
+  background-position-y: 84%;
+  background-size: 54%;
+  padding-left: 47px;
+  height: 400px;
 }

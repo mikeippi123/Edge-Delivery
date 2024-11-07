@@ -8,14 +8,22 @@
   padding: 40px 24px;
   min-height: 300px;
 }
-
+.hero .button-container{
+  text-align: right;
+  margin: auto;
+}
 .hero h1 {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   color: var(--background-color);
 }
+.hero h5 {
+  text-align: right;
+  margin: auto;
+  margin-bottom: 32px;
 
+}
 .hero picture {
   position: absolute;
   z-index: -1;
