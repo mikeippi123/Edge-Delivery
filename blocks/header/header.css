@@ -5,7 +5,27 @@ header .nav-wrapper {
   z-index: 2;
   position: fixed;
 }
-
+a.button:any-link, button{
+  box-shadow: none;
+  background: transparent;
+  text-shadow: none;
+  min-width: 105px;
+  border-radius: 4px;
+  transition: background-color .25s ease, border-color .25s ease;
+  text-decoration: none !important;
+  box-sizing: border-box;
+  font-size: 1.3rem;
+  font-weight: 400;
+  border: 1px solid #f8f8f8;
+  padding: 9px 22px;
+  min-height: 38px;
+  margin-top: 7px;
+  text-transform: uppercase;
+  background-color: transparent;
+  border-color: #4271bd;
+  color: #4271bd;
+  margin: 0px;
+}
 header nav {
   box-sizing: border-box;
   display: grid;
@@ -34,9 +54,9 @@ header nav[aria-expanded='true'] {
   header nav {
     display: flex;
     justify-content: space-between;
-    gap: 0 32px;
+
     max-width: 1264px;
-    padding: 0 32px;
+
   }
 
   header nav[aria-expanded='true'] {
@@ -167,6 +187,7 @@ header nav .nav-sections ul {
   list-style: none;
   padding-left: 0;
   font-size: var(--body-font-size-s);
+
 }
 
 header nav .nav-sections ul > li {
@@ -221,12 +242,13 @@ header nav .nav-sections ul > li > ul > li {
   header nav .nav-sections ul {
     display: flex;
     gap: 24px;
-    margin: 0;
+    margin-left:256px;
   }
 
   header nav .nav-sections .default-content-wrapper > ul > li {
     flex: 0 1 auto;
     position: relative;
+
   }
 
   header nav .nav-sections .default-content-wrapper > ul > li > ul {

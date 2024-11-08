@@ -89,9 +89,12 @@ header {
   font-family: "Open Sans",sans-serif;
   font-size: 12px;
   padding-bottom: 10px;
+  
   ul,li{
     font-size: 12px;
     text-align: left;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
   }
 }
 

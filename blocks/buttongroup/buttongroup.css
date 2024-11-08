@@ -1,0 +1,47 @@
+.buttongroup{
+    width: 100%;
+}
+
+
+.buttongroup > div > div > p{
+    display: flex;
+    justify-content: center; /* Center the button within the container */
+    align-items: center; /* Center the button within the container */
+    margin: 0 10px; /* Optional: Add some space between the button containers */
+  }
+  
+  .buttongroup > div > div > p > a{
+    color: #ffffff;
+    background-color: #7396ce;
+    display: block;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    border: 1px solid transparent;
+    transition: .3s ease;
+    
+  }
+
+  .buttongroup > div > div > p > a:first-child{
+    margin-right: 0;
+    padding: 5px 44px;
+  }
+
+  .buttongroup > div > div > p > a:nth-child(2) {
+    margin-left: 27px;
+    padding: 5px 16px;
+  }
+
+  .buttongroup > div > div > p > a{
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+  }

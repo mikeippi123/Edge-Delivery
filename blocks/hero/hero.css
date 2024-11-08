@@ -7,23 +7,43 @@
   position: relative;
   padding: 40px 24px;
   min-height: 300px;
-}
-.hero .button-container{
-  text-align: right;
-  margin: auto;
-}
-.hero h1 {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  color: var(--background-color);
-}
-.hero h5 {
-  text-align: right;
-  margin: auto;
-  margin-bottom: 32px;
 
+  height: 457px;
 }
+
+.hero h1 {
+  height: 95px;
+  width: 500px;
+  margin-right: 38px;
+  margin-left: 50%;
+  line-height: 47.88px;
+  color: #2c3a61;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  margin-top: 42px;
+  margin-bottom: 32px;
+}
+.hero h1> br{
+  padding: 20px;
+}
+.hero h1 > a{
+  max-width: 176px;
+  min-height: 56px;
+  width: 100%;
+  margin: 12px 0 0;
+  background: #f8f8f8;
+  border-radius: 5px;
+  border: 1px solid #f8f8f8;
+  color: #2c3a61;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  padding: 16px 16px 16px 23px;
+  margin-top: 30px;
+  
+}
+
 .hero picture {
   position: absolute;
   z-index: -1;
