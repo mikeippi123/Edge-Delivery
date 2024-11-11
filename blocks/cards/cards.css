@@ -25,7 +25,7 @@
   color: #f8f8f8;
   min-width: 135px;
   max-width: 160px;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 600;
   text-decoration: none;
   padding: 10px 27px 10px 22px; 
@@ -57,8 +57,8 @@
 
 .cards > ul > li:first-child .cards-card-image{
   position: relative;
-  bottom: 100px; /* Move the element 20px down */
-  left: 150px; /* Move the element 30px to the right */
+  bottom: 100px; 
+  left: 150px; 
   width: 250px;
   height: 250px;
  }
@@ -73,8 +73,8 @@
 
 .cards > ul > li:nth-child(2) .cards-card-image{
   position: relative;
-  bottom: 100px; /* Move the element 20px down */
-  left: 150px; /* Move the element 30px to the right */
+  bottom: 100px; 
+  left: 150px; 
   width: 350px;
   height: 250px;
  }

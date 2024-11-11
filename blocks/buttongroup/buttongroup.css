@@ -5,9 +5,9 @@
 
 .buttongroup > div > div > p{
     display: flex;
-    justify-content: center; /* Center the button within the container */
-    align-items: center; /* Center the button within the container */
-    margin: 0 10px; /* Optional: Add some space between the button containers */
+    justify-content: center;
+    align-items: center; 
+    margin: 0 10px; 
   }
   
   .buttongroup > div > div > p > a{
