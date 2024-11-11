@@ -19,9 +19,10 @@ import {
  */
 function buildHeroBlock(main) {
   const h1 = main.querySelector('h1');
-  const picture = main.querySelector('picture');
+  const picture = main.querySelectorAll('picture')[0];
+  const picture2 = main.querySelectorAll('picture')[1];
   const h2 = main.querySelector('h2');
-  const picture2 = main.querySelector('picture2');
+  
   // eslint-disable-next-line no-bitwise
   if (h1 && picture && (h1.compareDocumentPosition(picture) & Node.DOCUMENT_POSITION_PRECEDING)){
     const section = document.createElement('div');
