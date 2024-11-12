@@ -16,24 +16,15 @@
     display: block;
     border-radius: 5px;
     text-align: center;
-    font-size: 12px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.2;
-    letter-spacing: normal;
-    border: 1px solid transparent;
-    transition: .3s ease;
-    
-  }
-
-  .buttongroup > div > div > p > a{
     font-size: 16px;
     font-weight: 600;
     font-stretch: normal;
     font-style: normal;
     line-height: normal;
     letter-spacing: normal;
+    border: 1px solid transparent;
+    transition: .3s ease;
+    
   }
   
   .buttongroup > div > div > p > a:first-child{
