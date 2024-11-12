@@ -33,7 +33,6 @@
 }
 
 .cards > ul > li {
-  border: 1px solid #dadada;
   background-color: var(--background-color);
   border: 1px solid #2B2C2B;
   padding: 5px;
