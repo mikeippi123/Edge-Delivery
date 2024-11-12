@@ -5,6 +5,7 @@ header .nav-wrapper {
   z-index: 2;
   position: fixed;
 }
+
 a.button:any-link, button{
   box-shadow: none;
   background: transparent;
@@ -19,13 +20,12 @@ a.button:any-link, button{
   border: 1px solid #f8f8f8;
   padding: 9px 22px;
   min-height: 38px;
-  margin-top: 7px;
   text-transform: uppercase;
   background-color: transparent;
   border-color: #4271bd;
   color: #4271bd;
-  margin: 0px;
 }
+
 header nav {
   box-sizing: border-box;
   display: grid;
@@ -54,9 +54,7 @@ header nav[aria-expanded='true'] {
   header nav {
     display: flex;
     justify-content: space-between;
-
     max-width: 1264px;
-
   }
 
   header nav[aria-expanded='true'] {
