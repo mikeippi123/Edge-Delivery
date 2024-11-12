@@ -1,6 +1,7 @@
 .cards-wraper{
   max-width: 1162px;
 }
+
 .cards > ul {
   display: flex;
   flex-wrap: wrap;
@@ -13,7 +14,7 @@
   font-size: 24px;
   font-weight: 700;
   color: #2b2c2b;
-
+  margin: 16px;
 }
 
 .cards .button.primary {
@@ -31,13 +32,6 @@
   padding: 10px 27px 10px 22px; 
 }
 
-.cards .two-per-row li {
-  box-sizing: border-box; 
-  
-}
-
-
-
 .cards > ul > li {
   border: 1px solid #dadada;
   background-color: var(--background-color);
@@ -45,6 +39,12 @@
   padding: 5px;
 
 }
+
+.cards .two-per-row li {
+  box-sizing: border-box; 
+  
+}
+
 .cards > ul > li:first-child {
   padding-left: 47px;
   padding-right: 15px;
@@ -115,9 +115,3 @@
   height: 250px;
 
  }
-
-.cards .cards-card-body {
-  margin: 16px;
-}
-
-
