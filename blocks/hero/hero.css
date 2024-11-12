@@ -22,14 +22,12 @@
 .hero h1 {
   height: 95px;
   width: 500px;
-  margin-right: 38px;
-  margin-left: 50%;
   line-height: 47.88px;
   color: #2c3a61;
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
   font-size: 36px;
-  margin: 42px 32px;
+  margin: 42px 38px 32px 50%;
 }
 
 
