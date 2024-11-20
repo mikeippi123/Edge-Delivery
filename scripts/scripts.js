@@ -155,6 +155,8 @@ async function loadLazy(doc) {
   loadFooter(doc.querySelector('footer'));
 
   loadCSS(`${window.hlx.codeBasePath}/styles/lazy-styles.css`);
+  loadCSS(`${window.hlx.codeBasePath}/styles/contactus.css`);
+  loadCSS(`${window.hlx.codeBasePath}/styles/buttongroup.css`);
   loadFonts();
 
   if ((getMetadata('experiment')
